@@ -31,7 +31,10 @@ As teached in the book <a href="" target="_blank">The Pragmatic Programmer</a>, 
 <hr>
 
 <h1 id="asking-questions">How to Ask Good Questions</h1>
-- What do you think the problem is?
+<ul>
+    <li>
+What do you think the problem is?
+    </li>
 - What exactly do you want to happen?
 - What is actually happening?
 - How did you get there?
