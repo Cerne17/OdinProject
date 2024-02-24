@@ -10,6 +10,9 @@
         <a href="#important-concepts">Important Concepts for Web</a>
     </li>
     <li>
+        <a href="#how-the-web-works">How does the Web Work?</a>
+    </li>
+    <li>
         <a href="#client">What is a Client</a>
     </li>
     <li>
@@ -25,9 +28,7 @@
         <a href="#links">Useful Links</a>
     </li>
 </ul>
-
 <hr>
-
 <h2 id="what-is-internet">What is the Internet</h2>
 <p>
     Is the connection between devices that enables communication through computers. Differently then many people believe, the world wide web and the internet aren't the same, the WWW uses the Internet to exist.
@@ -69,52 +70,90 @@
     <li>
         <p>In the Internet, a router is found always two or more parts of the internet intersects.</p>
     </li>
-    <li>
-        <p>Packets are sent from your computer, and always they pass through a router and/or ISP, they get a wrapper, to state where they passed. Then, when the packet gets to the ending server, it takes off all the wrappers, discovering the massage within the packet itself. To send it back to your computer, it re-assembles the wrappings and always the packet get to the piece of internet that created a specific wrapper, it's taken off, to discover the next destination, until the packet make it's way back to your computer, with no wrappings.</p>
-    </li>
 </ul>
 <hr>
-
 <h2 id="packets">What are packets and why are they useful?</h2>
 <p>
     Packets are small packs of data that are sent through the internet. The bigger traffics, such as videos, are split into smaller pieces - packets - to make it's way in the internet and travel through the internet.
 </p>
-
-<hr>
-
-<h2 id="important-concepts">Key Concepts for Web Development</h2>
 <p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
+    Packets are sent from your computer, and always they pass through a router and/or ISP, they get a wrapper, to state where they passed. Then, when the packet gets to the ending server, it takes off all the wrappers, discovering the massage within the packet itself. To send it back to your computer, it re-assembles the wrappings and always the packet get to the piece of internet that created a specific wrapper, it's taken off, to discover the next destination, until the packet make it's way back to your computer, with no wrappings.
 </p>
-
 <hr>
-
+<h2 id="important-concepts">Webpage vs Website vs Webserver vs Search Engine</h2>
+<p><b>Mozilla Definitions on these terms:</b></p>
+<h3>web page</h3>
+<p>
+A document which can be displayed in a web browser such as Firefox, Google Chrome, Opera, Microsoft Edge, or Apple Safari. These are also often called just "pages."
+</p>
+<h3>website</h3>
+<p>
+A collection of web pages which are grouped together and usually connected together in various ways. Often called a "website" or a "site."
+</p>
+<h3>web server</h3>
+<p>
+A computer that hosts a website on the Internet.
+</p>
+<h3>search engine</h3>
+<p>
+A web service that helps you find other web pages, such as Google, Bing, Yahoo, or DuckDuckGo. Search engines are normally accessed through a web browser (e.g. you can perform search engine searches directly in the address bar of Firefox, Chrome, etc.) or through a web page (e.g. bing.com or duckduckgo.com).
+</p>
+<hr>
+<h2 id="how-the-web-works">How does the Web Work?</h2>
+<p>
+    Computers in the web are usually called "Clients" and "Servers" and they change data with each other.
+</p>
+<img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works/simple-client-server.png" alt="Client and Server exchanging requests" height="200px"/>
+<p>
+    Clients: Normal internet users that want to access content online, commonly via a web browser in a PC.
+</p>
+<p>
+    Servers: Computers that store webpages, websites and apps. When a client tries to access a webpage via their browser, they send a request to Servers, that sends back the information requested by the user.
+</p>
+<h3>Important Parts of The Web</h3>
+<ol>
+    <li>
+        <p><b>Clients</b></p>
+    </li>
+    <li>
+        <p><b>Servers</b></p>
+    </li>
+    <li>
+        <p><b>Internet Connection</b></p>
+    </li>
+    <li>
+        <p><b>TCP/IP:</b>(Transmission Control Protocol/ Internet Protocol) Protocols that dictate how the data can travel across the Internet</p>
+    </li>
+    <li>
+        <p><b>DNS:</b>(Domain Name System) Basically the Addresses Book. When you type into your browser the webpage's Domain, the browser searches the DNS to find the respective IP address to that site before accessing it and retrieving it's data.</p>
+    </li>
+    <li>
+        <p><b>HTTP:</b>(Hypertext Transfer Protocol) Application Protocol that enables the communication between the Clients and the Servers.</p>
+    </li>
+    <li>
+        <p><b>Component Files:</b>The different files that compose a website. They can either be: code files or assets.</p>
+    </li>
+</ol>
+<hr>
 <h2 id="client">What is a Client?</h2>
 <p>
     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
 </p>
-
 <hr>
-
 <h2 id="server">What is a Server?</h2>
 <p>
     Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
 </p>
-
 <hr>
-
-<h2 id="ip-address">What are Ip Addresses</h2>
+<h2 id="ip-address">What are IP Addresses</h2>
 <p>
     Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
 </p>
-
 <hr>
-
 <h2 id="dns-server">What are DNS Servers?</h2>
 <p>
     Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
 </p>
-
 <hr>
 <h2 id="links">Useful Links</h2>
 <ul>
