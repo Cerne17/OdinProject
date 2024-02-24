@@ -122,38 +122,53 @@ A web service that helps you find other web pages, such as Google, Bing, Yahoo, 
         <p><b>Internet Connection</b></p>
     </li>
     <li>
-        <p><b>TCP/IP:</b>(Transmission Control Protocol/ Internet Protocol) Protocols that dictate how the data can travel across the Internet</p>
+        <p><b>TCP/IP: </b>(Transmission Control Protocol/ Internet Protocol) Protocols that dictate how the data can travel across the Internet</p>
     </li>
     <li>
-        <p><b>DNS:</b>(Domain Name System) Basically the Addresses Book. When you type into your browser the webpage's Domain, the browser searches the DNS to find the respective IP address to that site before accessing it and retrieving it's data.</p>
+        <p><b>DNS: </b>(Domain Name System) Basically the Addresses Book. When you type into your browser the webpage's Domain, the browser searches the DNS to find the respective IP address to that site before accessing it and retrieving it's data.</p>
     </li>
     <li>
-        <p><b>HTTP:</b>(Hypertext Transfer Protocol) Application Protocol that enables the communication between the Clients and the Servers.</p>
+        <p><b>HTTP: </b>(Hypertext Transfer Protocol) Application Protocol that enables the communication between the Clients and the Servers.</p>
     </li>
     <li>
         <p><b>Component Files:</b>The different files that compose a website. They can either be: code files or assets.</p>
     </li>
 </ol>
-<hr>
-<h2 id="client">What is a Client?</h2>
-<p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-</p>
-<hr>
-<h2 id="server">What is a Server?</h2>
-<p>
-    Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-</p>
-<hr>
-<h2 id="ip-address">What are IP Addresses</h2>
-<p>
-    Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
-</p>
-<hr>
-<h2 id="dns-server">What are DNS Servers?</h2>
-<p>
-    Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-</p>
+<h3>Order the browser gets the Files</h3>
+<ol>
+    <li>
+        Html file, in which the browser recognizes all the external links to stylesheets and script files.
+    </li>
+    <li>
+        CSS and Javascript are then requested simultaneously.
+    </li>
+    <li>
+        The browser then creates the DOM and CSSOM and, finally, renders the HTML, CSS and Javascript.
+    </li>
+</ol>
+<h3>The Flow of requesting a webpage</h3>
+<ol>
+    <li>
+        <p>
+        The browser sends a request to the DNS request to get a the webpage's real address.
+        </p>
+    </li>
+    <li>
+        <p>
+        The browser sends a HTTP request to the site trying to GET a copy of it's files to the Client, which is sent using the TCP/IP methods. 
+        </p>
+    </li>
+    <li>
+        <p>
+        If the Server responds positively, it will respond with the code "200 OK" and retrieve all the data needed to assemble the webpage in packets. 
+        </p>
+    </li>
+    <li>
+        <p>
+        Finally, the browser assembles the packets back into the webpage form and displays it at the user's screen.
+        </p>
+    </li>
+</ol>
 <hr>
 <h2 id="links">Useful Links</h2>
 <ul>
@@ -165,5 +180,8 @@ A web service that helps you find other web pages, such as Google, Bing, Yahoo, 
     </li>
     <li>
         <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work" target="_blank">What is and how does the Internet work? (Mozilla)</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=72snZctFFtA&t=45s" target="_blank">A DNS Request in action</a>
     </li>
 </ul>
