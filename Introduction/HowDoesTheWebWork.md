@@ -21,6 +21,9 @@
     <li>
         <a href="#dns-server">What are DNS Servers</a>
     </li>
+    <li>
+        <a href="#links">Useful Links</a>
+    </li>
 </ul>
 
 <hr>
@@ -53,13 +56,23 @@
 <p>
     To connect the computers to the Internet, we need to follow the following schema: The local network is connected to an ISP (Internet Service Provider). The ISP companies are responsible for the connections of some specific routers, and they connect to the routers of other ISP companies, building up the Internet's complete network.
 </p>
-<h3 id="reference-link-table">Useful References</h3>
-| Content   | Link    |
-|--------------- | --------------- |
-| What is the Internet   | https://www.youtube.com/watch?v=eHp1l73ztB8   |
-| Mozilla: What is and how does the internet work   | https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work   |
-
-
+<h3 id="finding-computers">Reaching out Specific Computers</h3>
+<p>
+    To reach a specific computer in the network, you must identify which one you would like to contact. Thus, a kind of address is needed. In the computer area, this address is the IP (Internet Protocol). A IP address is a series of numbers spaced by dots. They are really difficult to remember, so when it comes to the Internet itself, developer created "nicknames" (aliases) for the sites, these aliases are called domains. A domain example could be: www.google.com; www.youtube.com; ...
+</p>
+<h3 id="internet-vs-web">Internet vs Web</h3>
+<p>
+    The Internet is the Infrastructure that makes it possible for people to create specific computers (Web Servers) that serve at the sites we know. This is what we call the Web. Thus, the Internet is the Infrastructure and the Web is the service built on top of this infrastructure.
+</p>
+<h3 class="extra-notes">Extra Notes</h3>
+<ul>
+    <li>
+        <p>In the Internet, a router is found always two or more parts of the internet intersects.</p>
+    </li>
+    <li>
+        <p>Packets are sent from your computer, and always they pass through a router and/or ISP, they get a wrapper, to state where they passed. Then, when the packet gets to the ending server, it takes off all the wrappers, discovering the massage within the packet itself. To send it back to your computer, it re-assembles the wrappings and always the packet get to the piece of internet that created a specific wrapper, it's taken off, to discover the next destination, until the packet make it's way back to your computer, with no wrappings.</p>
+    </li>
+</ul>
 <hr>
 
 <h2 id="packets">What are packets and why are they useful?</h2>
@@ -103,4 +116,15 @@
 </p>
 
 <hr>
-
+<h2 id="links">Useful Links</h2>
+<ul>
+    <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Glossary" target="_blank">Web Development Glossary</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/watch?v=eHp1l73ztB8" target="_blank">What is the Internet?</a>
+    </li>
+    <li>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work" target="_blank">What is and how does the Internet work? (Mozilla)</a>
+    </li>
+</ul>
