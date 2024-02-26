@@ -13,18 +13,6 @@
         <a href="#how-the-web-works">How does the Web Work?</a>
     </li>
     <li>
-        <a href="#client">What is a Client</a>
-    </li>
-    <li>
-        <a href="#server">What is a Server</a>
-    </li>
-    <li>
-        <a href="#ip-address">What are IP Addresses</a>
-    </li>
-    <li>
-        <a href="#dns-server">What are DNS Servers</a>
-    </li>
-    <li>
         <a href="#links">Useful Links</a>
     </li>
 </ul>
