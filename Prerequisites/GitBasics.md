@@ -30,7 +30,6 @@ Imagine you're working on a web application and you decide to implement a new "C
 <p>
 2. Stage Changes Separately: Use <code>git add -p</code> to stage changes selectively. This command allows you to review and add changes hunk by hunk.
 </p>
-<ul>
 <li>
 First, stage and commit the typo fix in the footer.
 </li>
@@ -47,6 +46,7 @@ For the typo fix: <code>git commit -m "fix: correct typo in footer"</code>
 <li>
 For the new form: <code>git commit -m "feat: add contact us form"</code>
 </li>
+</ul>
 <hr>
 <h2 id="conventional-commits">Conventional Commits</h2>
 <h3>Motivation</h3>
