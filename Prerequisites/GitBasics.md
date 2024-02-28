@@ -111,11 +111,5 @@ In essence, atomic commits improve the internal quality of the commit history, m
     <li>
         <a href="https://semantic-release.gitbook.io/semantic-release/" target="_blank">Semantic Release Documentation</a>
     </li>
-    <li>
-        <a href="" target="_blank"></a>
-    </li>
-    <li>
-        <a href="" target="_blank"></a>
-    </li>
 </ul>
 <hr>
